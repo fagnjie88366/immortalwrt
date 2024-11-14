@@ -146,7 +146,7 @@
 	nvmem-cell-names = "mac-address";
 };
 
-&ethphy4 {
+&ethphy0 {
 	/delete-property/ interrupts;
 };
 
