@@ -132,21 +132,21 @@
 	};
 };
 
-&gmac0 {
+&gmac1 {
 	nvmem-cells = <&macaddr_factory_e000>;
 	nvmem-cell-names = "mac-address";
 };
 
-&gmac1 {
+&gmac0 {
 	status = "okay";
 	label = "wan";
-	phy-handle = <&ethphy0>;
+	phy-handle = <&ethphy4>;
 
 	nvmem-cells = <&macaddr_factory_e006>;
 	nvmem-cell-names = "mac-address";
 };
 
-&ethphy0 {
+&ethphy4 {
 	/delete-property/ interrupts;
 };
 
