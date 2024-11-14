@@ -132,12 +132,12 @@
 	};
 };
 
-&gmac1 {
+&gmac0 {
 	nvmem-cells = <&macaddr_factory_e000>;
 	nvmem-cell-names = "mac-address";
 };
 
-&gmac0 {
+&gmac1 {
 	status = "okay";
 	label = "wan";
 	phy-handle = <&ethphy4>;
