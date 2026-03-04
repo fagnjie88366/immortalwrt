@@ -5,7 +5,7 @@
 
 / {
 	compatible = "xiaoyu,xy-c5", "mediatek,mt7621-soc";
-	model = "XiaoYu XY-C5";
+	model = "西加云杉 8210";
 
 	aliases {
 		led-boot = &led_sys;
